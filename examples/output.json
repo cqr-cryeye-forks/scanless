@@ -1,0 +1,424 @@
+{
+  "ipfingerprints": {
+    "parsed": [
+      {
+        "port": "80",
+        "state": "open",
+        "service": "http",
+        "protocol": "tcp"
+      },
+      {
+        "port": "443",
+        "state": "open",
+        "service": "https",
+        "protocol": "tcp"
+      }
+    ]
+  },
+  "spiderip": {
+    "parsed": [
+      {
+        "port": "21",
+        "state": "closed",
+        "service": "ftp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "22",
+        "state": "closed",
+        "service": "ssh",
+        "protocol": "tcp"
+      },
+      {
+        "port": "25",
+        "state": "closed",
+        "service": "smtp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "80",
+        "state": "open",
+        "service": "http",
+        "protocol": "tcp"
+      },
+      {
+        "port": "110",
+        "state": "closed",
+        "service": "pop3",
+        "protocol": "tcp"
+      },
+      {
+        "port": "143",
+        "state": "closed",
+        "service": "imap",
+        "protocol": "tcp"
+      },
+      {
+        "port": "443",
+        "state": "open",
+        "service": "https",
+        "protocol": "tcp"
+      },
+      {
+        "port": "465",
+        "state": "closed",
+        "service": "smtps",
+        "protocol": "tcp"
+      },
+      {
+        "port": "993",
+        "state": "closed",
+        "service": "imaps",
+        "protocol": "tcp"
+      },
+      {
+        "port": "995",
+        "state": "closed",
+        "service": "pop3s",
+        "protocol": "tcp"
+      },
+      {
+        "port": "1433",
+        "state": "closed",
+        "service": "ms-sql-s",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3306",
+        "state": "closed",
+        "service": "mysql",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3389",
+        "state": "closed",
+        "service": "ms-wbt-server",
+        "protocol": "tcp"
+      },
+      {
+        "port": "5900",
+        "state": "closed",
+        "service": "vnc",
+        "protocol": "tcp"
+      },
+      {
+        "port": "8080",
+        "state": "closed",
+        "service": "http-proxy",
+        "protocol": "tcp"
+      },
+      {
+        "port": "8443",
+        "state": "closed",
+        "service": "https-alt",
+        "protocol": "tcp"
+      }
+    ]
+  },
+  "standingtech": {
+    "parsed": [
+      {
+        "port": "21",
+        "state": "closed",
+        "service": "ftp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "22",
+        "state": "closed",
+        "service": "ssh",
+        "protocol": "tcp"
+      },
+      {
+        "port": "23",
+        "state": "closed",
+        "service": "telnet",
+        "protocol": "tcp"
+      },
+      {
+        "port": "25",
+        "state": "closed",
+        "service": "smtp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "80",
+        "state": "open",
+        "service": "http",
+        "protocol": "tcp"
+      },
+      {
+        "port": "110",
+        "state": "closed",
+        "service": "pop3",
+        "protocol": "tcp"
+      },
+      {
+        "port": "139",
+        "state": "closed",
+        "service": "netbios-ssn",
+        "protocol": "tcp"
+      },
+      {
+        "port": "143",
+        "state": "closed",
+        "service": "imap",
+        "protocol": "tcp"
+      },
+      {
+        "port": "443",
+        "state": "open",
+        "service": "https",
+        "protocol": "tcp"
+      },
+      {
+        "port": "445",
+        "state": "closed",
+        "service": "microsoft-ds",
+        "protocol": "tcp"
+      },
+      {
+        "port": "1433",
+        "state": "closed",
+        "service": "ms-sql-s",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3306",
+        "state": "closed",
+        "service": "mysql",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3389",
+        "state": "closed",
+        "service": "ms-wbt-server",
+        "protocol": "tcp"
+      },
+      {
+        "port": "5900",
+        "state": "closed",
+        "service": "vnc",
+        "protocol": "tcp"
+      }
+    ]
+  },
+  "viewdns": {
+    "parsed": [
+      {
+        "port": "21",
+        "state": "closed",
+        "service": "ftp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "22",
+        "state": "closed",
+        "service": "ssh",
+        "protocol": "tcp"
+      },
+      {
+        "port": "23",
+        "state": "closed",
+        "service": "telnet",
+        "protocol": "tcp"
+      },
+      {
+        "port": "25",
+        "state": "closed",
+        "service": "smtp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "53",
+        "state": "closed",
+        "service": "domain",
+        "protocol": "tcp"
+      },
+      {
+        "port": "80",
+        "state": "open",
+        "service": "http",
+        "protocol": "tcp"
+      },
+      {
+        "port": "110",
+        "state": "closed",
+        "service": "pop3",
+        "protocol": "tcp"
+      },
+      {
+        "port": "139",
+        "state": "closed",
+        "service": "netbios-ssn",
+        "protocol": "tcp"
+      },
+      {
+        "port": "143",
+        "state": "closed",
+        "service": "imap",
+        "protocol": "tcp"
+      },
+      {
+        "port": "443",
+        "state": "open",
+        "service": "https",
+        "protocol": "tcp"
+      },
+      {
+        "port": "445",
+        "state": "closed",
+        "service": "microsoft-ds",
+        "protocol": "tcp"
+      },
+      {
+        "port": "1433",
+        "state": "closed",
+        "service": "ms-sql-s",
+        "protocol": "tcp"
+      },
+      {
+        "port": "1521",
+        "state": "closed",
+        "service": "oracle",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3306",
+        "state": "closed",
+        "service": "mysql",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3389",
+        "state": "closed",
+        "service": "ms-wbt-server",
+        "protocol": "tcp"
+      }
+    ]
+  },
+  "yougetsignal": {
+    "parsed": [
+      {
+        "port": "21",
+        "state": "closed",
+        "service": "ftp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "22",
+        "state": "closed",
+        "service": "ssh",
+        "protocol": "tcp"
+      },
+      {
+        "port": "23",
+        "state": "closed",
+        "service": "telnet",
+        "protocol": "tcp"
+      },
+      {
+        "port": "25",
+        "state": "closed",
+        "service": "smtp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "53",
+        "state": "closed",
+        "service": "domain",
+        "protocol": "tcp"
+      },
+      {
+        "port": "80",
+        "state": "open",
+        "service": "http",
+        "protocol": "tcp"
+      },
+      {
+        "port": "110",
+        "state": "closed",
+        "service": "pop3",
+        "protocol": "tcp"
+      },
+      {
+        "port": "115",
+        "state": "closed",
+        "service": "sftp",
+        "protocol": "tcp"
+      },
+      {
+        "port": "135",
+        "state": "closed",
+        "service": "msrpc",
+        "protocol": "tcp"
+      },
+      {
+        "port": "139",
+        "state": "closed",
+        "service": "netbios-ssn",
+        "protocol": "tcp"
+      },
+      {
+        "port": "143",
+        "state": "closed",
+        "service": "imap",
+        "protocol": "tcp"
+      },
+      {
+        "port": "194",
+        "state": "closed",
+        "service": "irc",
+        "protocol": "tcp"
+      },
+      {
+        "port": "443",
+        "state": "open",
+        "service": "https",
+        "protocol": "tcp"
+      },
+      {
+        "port": "445",
+        "state": "closed",
+        "service": "microsoft-ds",
+        "protocol": "tcp"
+      },
+      {
+        "port": "1433",
+        "state": "closed",
+        "service": "ms-sql-s",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3306",
+        "state": "closed",
+        "service": "mysql",
+        "protocol": "tcp"
+      },
+      {
+        "port": "3389",
+        "state": "closed",
+        "service": "ms-wbt-server",
+        "protocol": "tcp"
+      },
+      {
+        "port": "5632",
+        "state": "closed",
+        "service": "pcanywherestat",
+        "protocol": "tcp"
+      },
+      {
+        "port": "5900",
+        "state": "closed",
+        "service": "vnc",
+        "protocol": "tcp"
+      },
+      {
+        "port": "6112",
+        "state": "closed",
+        "service": "dtspc",
+        "protocol": "tcp"
+      }
+    ]
+  }
+}

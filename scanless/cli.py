@@ -1,5 +1,5 @@
 import argparse
-
+import json
 from random import choice
 
 import crayons
@@ -69,6 +69,12 @@ def get_parser():
         action="store_true",
         help="debug mode (cli mode off & show network errors)",
     )
+    parser.add_argument(
+        "-o",
+        "--output",
+        default="output.json",
+        help="output filename",
+    )
     return parser
 
 
@@ -110,19 +116,30 @@ def main():
 
     print(f"Running scanless v{VERSION} ...\n")
     scanners = sl.scanners.keys()
-
+    output = {}
     if args["all"]:
+        scanner = None
         for s in scanners:
+            result = sl.scan(target, scanner=s)
+            raw = result.pop("raw")
+            output[s] = result
             print(f"{s}:")
-            display(sl.scan(target, scanner=s)["raw"])
+            display(raw)
             print()
-        return
 
-    if args["random"]:
+    elif args["random"]:
         scanner = choice(list(scanners))
 
     if scanner in scanners:
+        result = sl.scan(target, scanner=scanner)
+        raw = result.pop("raw")
+        output[scanner] = result
         print(f"{scanner}:")
-        display(sl.scan(target, scanner=scanner)["raw"])
-    else:
-        print("Scanner not found, see --list to view all supported scanners.")
+        display(raw)
+
+    with open(args["output"], "w") as f:
+        json.dump(output, f, indent=2)
+
+
+if __name__ == '__main__':
+    main()
