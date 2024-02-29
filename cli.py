@@ -122,7 +122,7 @@ def main():
         for s in scanners:
             result = sl.scan(target, scanner=s)
             raw = result.pop("raw")
-            output[s] = result
+            output[s] = result.get("parsed")
             print(f"{s}:")
             display(raw)
             print()
@@ -133,7 +133,7 @@ def main():
     if scanner in scanners:
         result = sl.scan(target, scanner=scanner)
         raw = result.pop("raw")
-        output[scanner] = result
+        output[scanner] = result.get("parsed")
         print(f"{scanner}:")
         display(raw)
 
